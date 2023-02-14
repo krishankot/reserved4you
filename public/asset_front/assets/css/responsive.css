@@ -1,0 +1,1462 @@
+@media only screen and (min-width: 1430px) {
+    .container {
+        max-width: 1290px;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .container {
+        max-width: 1440px;
+    }
+}
+
+@media only screen and (min-width: 1800px) {
+    .container {
+        max-width: 1630px;
+    }
+}
+
+
+@media only screen and (max-width: 1599px) {}
+
+@media only screen and (max-width: 1429px) {}
+
+@media only screen and (max-width: 1199px) {
+    .sales label {
+        margin-right: 16px;
+    }
+
+    .saveplannow {
+        right: 10%;
+    }
+
+
+    .plans {
+        padding: 15px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    /* finance */
+    input.backdetail {
+        width: 100%;
+        height: 50px;
+    }
+
+    .financeviamail p {
+        padding: 12.5px 0px;
+        /* width: 100% !important; */
+    }
+
+    label.sendmailvia {
+        width: 100% !important;
+    }
+
+    .sales label {
+        margin-right: 20px;
+    }
+
+    .paymentterms.bankpaydetail {
+        padding: 30px;
+    }
+
+    input.salesname {
+        width: 100%;
+        margin-bottom: 17px;
+        height: 50px;
+    }
+
+    .servicebtns.salesstaffbtn {
+        margin-top: 50px;
+    }
+
+    /* Contact detail */
+
+
+
+    /**********  Responsive Menu Bootstrap **********/
+    .navbar-expand-lg>.container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    label.plans-label.plan-3 {
+        margin-top: 100px;
+    }
+
+    .container.chooseplan {
+        padding-bottom: 150px;
+    }
+
+    /**  menu  **/
+    .toggler {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        padding: 0;
+        border-radius: 5px;
+        background-color: #fff;
+        border: 1px solid #7bc00b;
+        text-align: center;
+        z-index: 99;
+        display: block;
+        transition: all 0.5s;
+        margin-left: 20px;
+    }
+
+    .show-menu .toggler {
+        width: 40px;
+        height: 40px;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        border: none;
+    }
+
+    .toggler span {
+        position: relative;
+        width: 60%;
+        height: 2px;
+        background-color: #7bc00b;
+        display: inline-block;
+        vertical-align: top;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    .toggler span::before,
+    .toggler span::after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 2px;
+        background-color: #7bc00b;
+        right: 0;
+        transition: all 0.5s;
+        animation: openCloseByeSpan 300ms linear forwards;
+    }
+
+    .toggler span::before {
+        top: -6px;
+    }
+
+    .toggler span::after {
+        top: 6px;
+    }
+
+    .show-menu .toggler span::before,
+    .show-menu .toggler span::after {
+        left: 0;
+        right: 0;
+        margin: auto;
+        transform: rotate(45deg);
+        top: -5px;
+    }
+
+    .show-menu .toggler span::after {
+        transform: rotate(-45deg);
+    }
+
+    .show-menu .toggler span {
+        height: 0;
+    }
+
+    #navbarNav {
+        background: #fff url("../images/banner-img.png") no-repeat bottom right / auto 170px;
+        box-shadow: 0 0px 0 10px #fff inset, 0 0 0 11px #7bc00b inset;
+        padding: 60px 20px 15px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        display: block !important;
+        width: 100% !important;
+        text-align: center;
+        bottom: 0;
+        -webkit-transition: all 0.5s ease 0s;
+        -moz-transition: all 0.5s ease 0s;
+        -ms-transition: all 0.5s ease 0s;
+        -o-transition: all 0.5s ease 0s;
+        transition: all 0.5s ease 0s;
+        -webkit-transform: translateX(110%);
+        -moz-transform: translateX(110%);
+        -ms-transform: translateX(110%);
+        -o-transform: translateX(110%);
+        transform: translateX(110%);
+        height: auto !important;
+        overflow: auto;
+    }
+
+    .show-menu #navbarNav {
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+        transform: translateX(0%);
+    }
+
+    .show-menu .navbar-toggler {
+        position: fixed;
+        z-index: 5;
+        right: 15px;
+        border-radius: 5px;
+        padding: 2px;
+        top: 15px;
+    }
+
+    .show-menu .navbar-toggler-icon {
+        background-image: url("../images/close.svg");
+        background-size: 14px auto;
+    }
+
+    .navbar-nav .nav-item {
+        margin-left: 0;
+    }
+
+    .navbar .navbar-nav .nav-link {
+        font-size: 18px;
+        padding: 10px 10px;
+        margin: 0;
+        line-height: 1.2;
+    }
+
+    .navbar-nav .nav-link:hover {
+        color: #7bc00b;
+    }
+
+    .navbar-nav .active .nav-link {
+        color: #7bc00b;
+        font-weight: bold;
+    }
+
+    .navbar-nav .nav-item .dropdown-item {
+        text-align: center;
+        padding: 10px 10px;
+    }
+
+    .navbar-nav .dropdown-menu {
+        margin: 0;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    /* our service */
+    .recommandedmonthlyannuallplan {
+        margin-top: 20px;
+    }
+
+    .saveplannow {
+        right: 0;
+    }
+
+
+    .saveplannow p {
+        font-size: 22px;
+    }
+
+    .plans h2 {
+        font-size: 24px;
+    }
+
+    .basicplanimg {
+        width: 80px;
+        height: 80px;
+    }
+
+    .basicplanimg img {
+        width: 50px;
+    }
+
+    .pricemonthly h1 {
+        font-size: 35px;
+    }
+
+    /**  summary **/
+    .summary {
+        justify-content: flex-start;
+        overflow: auto;
+    }
+
+    .details h2 {
+        font-size: 25px;
+    }
+
+    ul.storename li p {
+        font-size: 18px;
+    }
+
+    .summrypayment {
+        margin-right: 0 !important;
+        max-width: 350px;
+    }
+
+    .summrypayment li a {
+        padding: 10px 0px;
+        font-size: 15px;
+    }
+
+    .summary {
+        justify-content: flex-start;
+        padding-left: 0 !important;
+    }
+
+    .annuallyplans p {
+        font-size: 26px;
+    }
+
+    nav.permonthprice ol li:first-child a {
+        font-size: 28px;
+    }
+
+    .sepadebit p {
+        font-size: 26px;
+    }
+
+    .advance-payment-summry {
+        padding: 20px;
+    }
+
+    .totalmonthlypayment {
+        padding: 25px;
+    }
+
+    /**********  summary end  **********/
+    /* B2B */
+    .datelbl {
+        margin-bottom: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    /* contact detail */
+    .filldetail {
+        padding: 45px 15px;
+    }
+
+    /* summry */
+    .details h2 {
+        font-size: 26px;
+    }
+
+    .contactdetails {
+        padding: 20px 30px;
+    }
+
+    .contactdetails:after {
+        top: 91px;
+    }
+
+    .contactinformation {
+        margin-top: 17px;
+    }
+
+    .summrypayment {
+        position: absolute;
+        top: 90px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .recomm-plan-info {
+        margin-top: 80px;
+        padding: 14px 20px;
+    }
+
+
+    .advance-payment-summry {
+        padding: 20px 30px;
+    }
+
+    .advance-payment-summry img:first-child {
+        margin-right: 20px;
+    }
+
+    .advance-payment-features p {
+        font-size: 22px;
+    }
+
+    nav.permonthprice ol li:first-child a {
+        font-size: 24px;
+    }
+
+    .totalmonthlypayment p {
+        font-size: 24px;
+    }
+
+    .advance-payment-features span {
+        font-size: 18px;
+    }
+
+    .totalmonthlypayment {
+        padding: 20px;
+    }
+
+    .details.re-plans {
+        padding: 20px;
+        margin-bottom: 0px;
+    }
+
+    .details.re-plans {
+        padding: 20px 20px 0px 20px;
+    }
+
+    .con-detail {
+        padding: 20px !important;
+    }
+
+    .paymenticon img {
+        width: 50px;
+    }
+
+    nav.permonthprice ol {
+        padding: 0;
+    }
+
+    .delicon {
+        margin-left: auto;
+    }
+
+    /* extra services */
+
+    .recomanded p {
+        top: 100%;
+    }
+
+    .recomanded h2 {
+        font-size: 24px;
+    }
+
+    .container.chooseplan1 {
+        padding-bottom: 0;
+    }
+
+    .monthprice h2 {
+        font-size: 30px;
+    }
+
+    .monthprice h2 span {
+        font-size: 20px;
+    }
+
+    .payimg img {
+        margin-top: 0px !important;
+    }
+
+    /* our service */
+    label.plans-label.plan-2 {
+        margin-top: 80px;
+        height: auto;
+    }
+
+    label.plans-label.plan-3 {
+        /* margin-top: 154px; */
+        height: auto;
+    }
+
+    .container.chooseplan {
+        /* height: auto !important; */
+        padding-bottom: 35px;
+    }
+
+    .saveplannow {
+        top: 90%;
+    }
+
+    .saveplannow p {
+        font-size: 20px;
+    }
+
+    .saveplannow:after {
+        top: -3px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    /* Contact detail */
+
+    nav.navbar.navbar-expand-lg.logo a {
+        /* text-align: center; */
+        margin: auto;
+    }
+
+    .contractheading {
+        margin-right: auto;
+        margin-top: 25px;
+    }
+
+    .filldetail {
+        padding: 45px 15px;
+    }
+
+    .contactheading h2 {
+        margin-top: 30px;
+    }
+
+    /* Duration of contact */
+
+    .paymentterms.bankpaydetail {
+        padding: 15px;
+        /* margin-left: auto; */
+        /* margin-right: auto; */
+    }
+
+    .servicebtns.duration_of_date {
+        margin-top: 100px;
+    }
+
+    .starttime {
+        margin-bottom: 25px;
+        /* margin-top: 50px; */
+    }
+
+    .contractheading p {
+        font-size: 16px;
+    }
+
+    .recomanded h2 {
+        font-size: 24;
+        font-size: 24px;
+    }
+
+    .calenderricon {
+        width: 70px;
+        height: 70px;
+    }
+
+    .calenderricon img {
+        width: 32px;
+    }
+
+    .timeinfo p {
+        font-size: 18px;
+        line-height: 29px;
+    }
+
+    .timeinfo h2 {
+        font-size: 20px;
+    }
+
+    .datebtn a {
+        font-size: 14px;
+    }
+
+    .datebtn {
+        margin-left: 96px;
+    }
+
+    .servicebtns.duration_of_date a {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 25px;
+        padding: 11.5px;
+    }
+
+    .servicebtns.duration_of_date {
+        padding: 15px;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    /* payment terms */
+    .choospaymentmethod {
+        padding: 15px;
+    }
+
+    .payment-nav li a {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    .servicebtns.paymenttermbtn {
+        margin-top: 27px;
+    }
+
+    .sepacredit {
+        margin-top: 20px;
+    }
+
+    .servicebtns.paymenttermbtn .previous {
+        padding: 10px 26px;
+    }
+
+    .servicebtns.paymenttermbtn .next {
+        padding: 10px 53px;
+    }
+
+    /* summary */
+
+    .contactdetails {
+        padding: 20px;
+        margin-top: 15px;
+    }
+
+    nav.navbar.navbar-expand-lg.logo img {
+        width: 157px;
+    }
+
+    .summary {
+        margin-top: 15px;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    .summrysection:before {
+        top: 115px;
+    }
+
+    .summary li a {
+        font-size: 18px;
+    }
+
+
+
+    .details h2 {
+        font-size: 22px;
+    }
+
+    .contactedit a {
+        width: 40px;
+        height: 40px;
+    }
+
+    .contactedit {
+        width: 40px;
+        height: 40px;
+    }
+
+    .contactedit a img {
+        width: 15px;
+    }
+
+    .contactdetails:after {
+        top: 77px;
+    }
+
+    ul.storename li {
+        margin-top: 30px;
+    }
+
+    ul.storename {
+        margin-bottom: 0;
+    }
+
+    .recomm-plan-info {
+        margin-top: 99px;
+    }
+
+    .rocommicon {
+        height: 60px;
+        width: 60px;
+    }
+
+    .rocommicon img {
+        width: 35px;
+    }
+
+    .annuallyplans p {
+        line-height: 30px;
+        font-size: 22px;
+    }
+
+    .annuallyplans span {
+        font-size: 18px;
+    }
+
+    nav.permonthprice ol li:first-child a {
+        font-size: 22px;
+    }
+
+    nav.permonthprice ol li:last-child {
+        font-size: 16px;
+    }
+
+    nav.permonthprice {
+        margin-right: 0;
+    }
+
+    .paymenticon img {
+        width: 40px;
+    }
+
+    .advance-payment-features p {
+        line-height: 27px;
+    }
+
+    .advance-payment-features p {
+        font-size: 20px;
+    }
+
+    .advance-payment-features span {
+        font-size: 16px;
+    }
+
+    .delicon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .delicon img {
+        width: 15px;
+    }
+
+    .totalmonthlypayment p {
+        font-size: 20px;
+    }
+
+    .details {
+        margin-bottom: 30px !important;
+    }
+
+    .con-detail:after {
+        top: 77px;
+    }
+
+    .starttime {
+        margin-bottom: 12px;
+    }
+
+    .calender-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .calender-icon img {
+        width: 28px;
+    }
+
+    .contactinformation {
+        margin-top: 0 !important;
+    }
+
+    .sepadebit p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .sepadebit span {
+        font-size: 17px;
+    }
+
+    .sepacredit {
+        padding: 15px;
+    }
+
+    /* our service */
+    .saveplannow:after {
+        top: -6px;
+        left: 19px;
+    }
+
+    .chooseplan {
+        padding: 20px 40px;
+    }
+
+    .saveplannow p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+
+    /* Contact */
+
+    .contactheading h2 {
+        margin-top: 17px;
+        font-size: 24px;
+    }
+
+    ul.country-list {
+        width: 270px !important;
+        /* max-width: 139px !important; */
+        height: 230px;
+    }
+
+    .filldetail {
+        padding: 15px;
+        margin-top: 21px;
+    }
+
+    input.storname.contact {
+        padding: 10px;
+        font-size: 14px;
+        border-radius: 12px;
+    }
+
+    .filldetail input {
+        padding: 10px;
+        font-size: 14px;
+        border-radius: 12px;
+    }
+
+
+    .mail,
+    .mobile,
+    .house_number,
+    .storname,
+    .fname,
+    .lname,
+    .intl-tel-input {
+        margin-top: 10px;
+    }
+
+    .mobile {
+        padding: 20px 0px 20px 63px !important;
+        width: 100%;
+    }
+
+    ul.country-list {
+        /* width: 79% !important; */
+        /* height: 60%; */
+    }
+
+    ul.country-list li {
+        font-size: 12px;
+        padding: 0;
+    }
+
+    .flag-container {
+        padding-left: 0px !important;
+        /* overflow: hidden; */
+        /* border-radius: 13px !important; */
+    }
+
+    .selected-flag {
+        background: transparent !important;
+    }
+
+    /* .intl-tel-input.allow-dropdown {
+    margin-top: 10px;
+} */
+
+    .storeadd.col-lg-12 h2 {
+        padding: 22px 10px 0px 10px;
+        font-size: 22px;
+    }
+
+    .letscountinuesbtn {
+        margin: 60px 0px 20px 0px;
+        width: 100%;
+    }
+
+    .letscountinuesbtn a {
+        width: 100% !important;
+        padding: 10px 66px;
+        font-size: 16px;
+        border-radius: 10px;
+    }
+
+    /* extra services */
+    .service-nav {
+        justify-content: space-around;
+    }
+
+    .service-nav li:first-child {
+        margin: 0;
+    }
+
+    .service-nav li:last-child {
+        margin: 0;
+        /* text-align: right; */
+        margin-left: auto;
+    }
+
+
+    .monthprice h2 span {
+        font-size: 16px;
+        top: -10px;
+    }
+
+    .monthprice h2 {
+        font-size: 30px;
+    }
+
+    h3.advance {
+        font-size: 20px;
+    }
+
+    .payment li a {
+        font-size: 14px;
+    }
+
+    section.extraservicesection::before {
+        top: 131px;
+    }
+
+    .chooseservices .owl-prev span {
+        font-size: 100px;
+    }
+
+    .chooseservices .owl-next span {
+        font-size: 100px;
+    }
+
+    .letscountinuesbtn.nextprevious.servicebtns {
+        margin-top: 40px;
+        margin-bottom: 0;
+    }
+
+    /* payment terms */
+    .choospaymentmethod {
+        padding: 13px;
+    }
+
+    .choospaymentmethod h2 {
+        font-size: 18px;
+        margin: 0 !important;
+    }
+
+    .payment-nav li {
+        width: 100%;
+        margin: 0;
+    }
+
+    .payment-nav li a {
+        margin: 0 !important;
+        padding: 10px;
+    }
+
+    .payment-nav {
+        margin-top: 20px !important;
+    }
+
+    .payment-nav li {
+        margin-bottom: 10px;
+    }
+
+    .payment-nav li a {
+        font-size: 14px;
+    }
+
+    .sepacredit {
+        margin: 0;
+        padding: 15px;
+        margin-top: 15px;
+    }
+
+    .directdebit p {
+        margin: 2px;
+        font-size: 12px;
+    }
+
+    .debitinfo p {
+        margin-top: 14px;
+        font-size: 12px;
+    }
+
+    .importantnote {
+        padding: 15px;
+    }
+
+    .importantnote p {
+        font-size: 12px;
+    }
+
+    .recomanded h2 {
+        padding-top: 17px;
+    }
+
+    .paymentterms {
+        margin-top: 20px;
+    }
+
+    .servicebtns.paymenttermbtn {
+        margin-top: 20px;
+        width: 100%;
+        padding: 13px;
+    }
+
+    .servicebtns.paymenttermbtn a {
+        margin: 0;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    .servicebtns.paymenttermbtn .previous {
+        padding: 8px;
+    }
+
+    nav.navbar.navbar-expand-lg.logo {
+        padding: 0;
+    }
+
+
+    .contractheading p {
+        font-size: 15px;
+    }
+
+    /* our story */
+    .container.chooseplan {
+        padding: 15px;
+    }
+
+    /* Finance */
+
+    input.backdetail {
+        width: 100%;
+        height: 40px;
+        /* padding: 0px 10px; */
+    }
+
+    .contractheading {
+        margin-top: 10px;
+    }
+
+    nav.navbar.navbar-expand-lg.logo a img {
+        width: 156px;
+    }
+
+    .paymentterms.bankpaydetail h2 {
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+
+    .account_holder label {
+        font-size: 17px;
+    }
+
+    .paymentterms.bankpaydetail label {
+        font-size: 16px;
+        margin-left: 6px;
+        margin-right: 0;
+    }
+
+    .invoicemethod {
+        margin-top: 25px;
+    }
+
+    .invoicemethod h4 {
+        font-size: 20px;
+    }
+
+    .financeviamail label p {
+        width: 100%;
+    }
+
+    .financeviamail .sendmailvia {
+        width: 100% !important;
+    }
+
+    .financeviamail {
+        margin-top: 25px;
+    }
+
+    .financeviamail .sendmailvia p {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .servicebtns.financebtn a {
+        margin: 0;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .servicebtns.financebtn {
+        padding: 15px;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .servicebtns.financebtn .previous {
+        padding: 8px;
+    }
+
+    /* Sales staff */
+
+    .sales input {
+        width: 100%;
+        height: 40px;
+        margin-bottom: 20px;
+    }
+
+    .sales label {
+        margin-bottom: 12px;
+    }
+
+    .sales {
+        margin-bottom: 0;
+    }
+
+    .servicebtns.salesstaffbtn {
+        margin-top: 20px;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .servicebtns.salesstaffbtn a {
+        margin: 0;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .servicebtns.salesstaffbtn .previous {
+        padding: 8px;
+        margin-bottom: 20px;
+    }
+
+    /* 10. Allgemeine */
+    .recomanded h2 {
+        font-size: 20px;
+    }
+
+    input.b2bdate {
+        padding: 10px;
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .datelbl {
+        margin-bottom: 15px;
+    }
+
+    .servicebtns.allgemeinebtn {
+        margin: 25px;
+        text-align: center;
+    }
+
+    .servicebtns.allgemeinebtn a {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .servicebtns.allgemeinebtn .previous {
+        padding: 8px;
+        margin-bottom: 15px;
+    }
+
+    .b2binformation {
+        padding: 15px;
+    }
+
+    /* summary */
+    nav.permonthprice {
+        margin-top: 10px;
+    }
+
+    .summary li a {
+        font-size: 16px;
+    }
+
+    .summrysection:before {
+        top: 110px;
+    }
+
+    .servicebtns .previous {
+        padding: 9.5px 0px;
+    }
+
+    .details h2 {
+        font-size: 20px;
+    }
+
+    ul.storename li {
+        width: 100%;
+    }
+
+    .details {
+        margin-bottom: 20px !important;
+    }
+
+    .details.re-plans {
+        padding: 15px;
+    }
+
+    .summrypayment {
+        max-width: 325px;
+        top: 72px;
+    }
+
+    .summrypayment li a {
+        font-size: 14px;
+    }
+
+    .storename span {
+        font-size: 14px;
+    }
+
+    ul.storename li p {
+        font-size: 16px;
+    }
+
+    .details {
+        margin-bottom: 17px !important;
+    }
+
+    .contactdetails.recomm-plan {
+        padding: 15px;
+    }
+
+    .details.re-plans {
+        padding: 0;
+    }
+
+    .summrypayment li a {
+        padding: 6px 0px;
+    }
+
+    .recomm-plan-info {
+        margin-top: 85px;
+    }
+
+    .annuallyplans span {
+        font-size: 14px;
+    }
+
+    .annuallyplans p {
+        font-size: 18px;
+    }
+
+    .rocommicon {
+        margin-right: 12px;
+    }
+
+    nav.permonthprice ol li:first-child a {
+        font-size: 20px;
+    }
+
+    nav.permonthprice ol li:last-child {
+        font-size: 14px;
+    }
+
+    .advance-payment-summry {
+        padding: 15px;
+    }
+
+    .paymenticon img {
+        margin-right: 10px;
+    }
+
+    .advance-payment-features span {
+        font-size: 14px;
+    }
+
+    .advance-payment-features p {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .delicon {
+        margin-top: 10px;
+    }
+
+    .totalmonthlypayment {
+        padding: 15px 15px 0px 15px;
+    }
+
+    .totalmonthlypayment p {
+        font-size: 18px;
+    }
+
+    .starttime {
+        margin-bottom: 19px;
+        /* margin-top: 19px; */
+        padding-bottom: 0;
+    }
+
+
+
+    .con-detail:after {
+        top: 69px;
+    }
+
+
+
+    .con-detail {
+        padding: 15px !important;
+    }
+
+    .sepapayment {
+        margin-top: 21px;
+    }
+
+    .sepadebit span {
+        font-size: 14px;
+    }
+
+    .sepadebit p {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    a.btn.btn-primary.showdetails {
+        font-size: 16px;
+    }
+
+    .letscountinuesbtn a {
+        margin: 0;
+        width: 100% !important;
+        margin-bottom: 21px;
+        border-radius: 10px;
+    }
+
+
+    .letscountinuesbtn.nextprevious.summarynextbtn {
+        margin: 30px 0px;
+    }
+
+    a.next {
+        width: 100% !important;
+        padding: 13.4px 130px;
+    }
+
+    .time-info p {
+        font-size: 14px;
+    }
+
+    .time-info h2 {
+        font-size: 18px;
+    }
+
+    .paymenticon {
+        width: 100%;
+    }
+
+    .advance-payment-features {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    nav.permonthprice {
+        margin: 0;
+        width: 100%;
+    }
+
+    .delicon {
+        margin: 12px 0 0;
+    }
+
+    a.next {
+        padding: 14px 0;
+    }
+}
+
+@media only screen and (max-width: 349px) {
+
+    /* duration of contact */
+    nav.navbar.navbar-expand-lg.logo a img {
+        width: 200px;
+    }
+
+    .contractheading {
+        margin-top: 15px;
+    }
+
+    .recomanded h2 {
+        padding-top: 25px;
+    }
+
+    .paymentterms.bankpaydetail {
+        margin-top: 20px;
+    }
+
+    .calenderricon {
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+    }
+
+    .calenderricon img {
+        width: 25px;
+    }
+
+    .timeinfo p {
+        font-size: 14px;
+    }
+
+    .timeinfo h2 {
+        font-size: 18px;
+    }
+
+    .calenderricon img {
+        width: 25px;
+    }
+
+    .contactheading h2 {
+        font-size: 22px;
+    }
+
+    .datebtn {
+        margin-left: 80px;
+        margin-top: 15px;
+    }
+
+    .datebtn a {
+        font-size: 13px;
+    }
+
+    .servicebtns.duration_of_date a {
+        font-size: 16px;
+        padding: 10px;
+        margin-bottom: 8px;
+    }
+
+    .servicebtns.duration_of_date {
+        margin-top: 25px;
+        padding-bottom: 0;
+    }
+
+    .servicebtns.duration_of_date .previous {
+        padding: 8px;
+    }
+
+    /* extra-service */
+    .recomanded p {
+        left: 60%;
+        width: 100%;
+        top: 106%;
+    }
+
+    .service-nav li a {
+        font-size: 18px;
+    }
+
+    .container.chooseplan1 {
+        margin-top: 0;
+        width: 100%;
+    }
+
+    /* our service */
+    .saveplannow p {
+        font-size: 14px;
+    }
+
+    .saveplannow:after {
+        left: 93px;
+    }
+
+
+    p.auflis {
+        margin: 0px !important;
+        font-size: 14px;
+        padding: 10px !important;
+    }
+
+    .pricemonthly h1 {
+        font-size: 30px;
+    }
+
+    .basicplanimg {
+        width: 70px;
+        height: 70px;
+        top: -42px;
+    }
+
+    .plans h2 {
+        font-size: 22px;
+    }
+
+    a.next {
+        padding: 13px;
+    }
+}

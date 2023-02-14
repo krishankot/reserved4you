@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128.5" height="101.5" viewBox="0 0 128.5 101.5">
+  <g id="recommandation" transform="translate(-1275.5 -450.5)">
+    <g id="Group_1255" data-name="Group 1255" transform="translate(10)">
+      <rect id="Rectangle_5317" data-name="Rectangle 5317" width="53" height="76" rx="10" transform="translate(1278 463)" fill="#fdedd6"/>
+      <rect id="Rectangle_5320" data-name="Rectangle 5320" width="53" height="76" rx="10" transform="translate(1341 476)" fill="#fdedd6"/>
+      <g id="Group_1253" data-name="Group 1253" transform="translate(1266.695 451.65)">
+        <rect id="Rectangle_5319" data-name="Rectangle 5319" width="53" height="76" rx="10" transform="translate(0.305 0.35)" fill="none" stroke="#101928" stroke-width="3"/>
+        <rect id="Rectangle_5318" data-name="Rectangle 5318" width="36" height="35" rx="6" transform="translate(8.305 8.35)" fill="none" stroke="#101928" stroke-width="3"/>
+        <line id="Line_7" data-name="Line 7" x2="35.592" transform="translate(9.115 53.388)" fill="none" stroke="#101928" stroke-linecap="round" stroke-width="3"/>
+        <line id="Line_8" data-name="Line 8" x2="16.494" transform="translate(9.115 60.333)" fill="none" stroke="#101928" stroke-linecap="round" stroke-width="3"/>
+        <line id="Line_9" data-name="Line 9" x2="16.494" transform="translate(9.115 67.277)" fill="none" stroke="#101928" stroke-linecap="round" stroke-width="3"/>
+      </g>
+      <g id="Group_1254" data-name="Group 1254" transform="translate(1330.066 464.672)">
+        <rect id="Rectangle_5319-2" data-name="Rectangle 5319" width="53" height="76" rx="10" transform="translate(-0.066 0.328)" fill="none" stroke="#101928" stroke-width="3"/>
+        <rect id="Rectangle_5318-2" data-name="Rectangle 5318" width="35" height="35" rx="6" transform="translate(8.934 8.328)" fill="none" stroke="#101928" stroke-width="3"/>
+        <line id="Line_7-2" data-name="Line 7" x2="35.592" transform="translate(9.115 53.388)" fill="none" stroke="#101928" stroke-linecap="round" stroke-width="3"/>
+        <line id="Line_8-2" data-name="Line 8" x2="16.494" transform="translate(9.115 60.333)" fill="none" stroke="#101928" stroke-linecap="round" stroke-width="3"/>
+        <line id="Line_9-2" data-name="Line 9" x2="16.494" transform="translate(9.115 67.277)" fill="none" stroke="#101928" stroke-linecap="round" stroke-width="3"/>
+      </g>
+    </g>
+  </g>
+</svg>
